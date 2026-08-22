@@ -1,0 +1,19 @@
+from enum import Enum
+
+
+class AirportIntent(str, Enum):
+    """
+    Supported airport-related intents.
+    """
+
+    GET_FLIGHT_INFORMATION = "GET_FLIGHT_INFORMATION"
+    GET_FLIGHT_STATUS = "GET_FLIGHT_STATUS"
+    GET_FLIGHT_GATE = "GET_FLIGHT_GATE"
+    GET_TERMINAL = "GET_TERMINAL"
+    GET_CHECKIN = "GET_CHECKIN"
+    GET_BAGGAGE = "GET_BAGGAGE"
+    GET_PARKING = "GET_PARKING"
+    GET_SECURITY = "GET_SECURITY"
+    GET_AIRPORT_SERVICE = "GET_AIRPORT_SERVICE"
+
+    UNKNOWN = "UNKNOWN"
