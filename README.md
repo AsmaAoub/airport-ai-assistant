@@ -15,14 +15,22 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
+<<<<<<< HEAD
 git remote add origin https://gitlab-infra-interne.sqorus-cloud.com/aaoubraim/assistant_aeroport.git
+=======
+git remote add origin https://gitlab-infra.sqorus-cloud.com/Asma/assistant_aeroport.git
+>>>>>>> 9091be210fb24453fd4e2f35057f8ad402be78b4
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
+<<<<<<< HEAD
 - [ ] [Set up project integrations](https://gitlab-infra-interne.sqorus-cloud.com/aaoubraim/assistant_aeroport/-/settings/integrations)
+=======
+- [ ] [Set up project integrations](https://gitlab-infra.sqorus-cloud.com/Asma/assistant_aeroport/-/settings/integrations)
+>>>>>>> 9091be210fb24453fd4e2f35057f8ad402be78b4
 
 ## Collaborate with your team
 
@@ -36,7 +44,11 @@ git push -uf origin main
 
 Use the built-in continuous integration in GitLab.
 
+<<<<<<< HEAD
 - [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
+=======
+- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
+>>>>>>> 9091be210fb24453fd4e2f35057f8ad402be78b4
 - [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
 - [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
 - [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
