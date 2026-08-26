@@ -29,7 +29,7 @@ BACKEND
 */
 
 const API_BASE_URL =
-  'https://86b9-41-250-151-107.ngrok-free.app';
+  'https://1a33-105-74-74-227.ngrok-free.app';
 
 
 export default function App() {
